@@ -158,7 +158,7 @@ FireForce VI is designed as a systems engineering educational project that:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+For licensing arrangements and intellectual property inquiries, please contact the Primary Investigator, Dr. Maged Elaasar at [modelwaresolutions@gmail.com](mailto:modelwaresolutions@gmail.com).
 
 ## 🙏 Acknowledgments
 
