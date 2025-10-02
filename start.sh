@@ -1,0 +1,1 @@
+npx quartz build -d fireforce6 --serve
