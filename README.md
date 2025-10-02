@@ -52,6 +52,57 @@ This digital garden contains comprehensive documentation organized into:
 
 Visit the published site: **[https://fireforce6.github.io](https://fireforce6.github.io)**
 
+### Editing Content with Obsidian
+
+The content lives in the `fireforce6/` folder as an Obsidian vault. You can edit it using [Obsidian](https://obsidian.md) for the best experience with wiki-style linking and live preview.
+
+#### Setting Up Obsidian
+
+1. **Download and Install Obsidian**
+   - Visit [https://obsidian.md](https://obsidian.md)
+   - Download and install for your platform (Windows, macOS, or Linux)
+
+2. **Clone the Repository**
+   ```bash
+   git clone https://github.com/fireforce6/fireforce6.github.io.git
+   cd fireforce6.github.io
+   ```
+
+3. **Open Vault in Obsidian**
+   - Launch Obsidian
+   - Click "Open folder as vault"
+   - Navigate to and select the `fireforce6/` folder
+   - Obsidian will now open your vault
+
+4. **Start Editing**
+   - Edit any `.md` file in Obsidian
+   - Use `[[Page Name]]` syntax for wiki-style links
+   - Add images to the `Assets/` folder
+   - Changes are automatically saved
+
+5. **Preview Changes Locally**
+   ```bash
+   # In the repository root
+   npx quartz build --serve -d fireforce6
+   ```
+   - Visit `http://localhost:8080` to see your changes
+
+6. **Commit and Push**
+   ```bash
+   git add .
+   git commit -m "Update documentation"
+   git push
+   ```
+   - GitHub Actions will automatically rebuild and deploy your site
+
+#### Obsidian Tips
+
+- **Command Palette**: Press `Ctrl/Cmd + P` for quick actions
+- **Graph View**: Click the graph icon to visualize page connections
+- **Quick Switcher**: Press `Ctrl/Cmd + O` to quickly jump between pages
+- **Link Autocomplete**: Type `[[` to see a list of pages to link to
+- **Backlinks**: See which pages link to the current page in the right sidebar
+
 ### Local Development
 
 This digital garden is built with [Quartz 4](https://quartz.jzhao.xyz), a fast, batteries-included static site generator for publishing Obsidian vaults.
