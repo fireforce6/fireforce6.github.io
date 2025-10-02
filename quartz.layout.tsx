@@ -27,8 +27,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: MyFooter({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/fireforce6/fireforce6.github.io",
+      "Slackn": "https://join.slack.com/t/fireforcevi-f25/shared_invite/zt-3ewvs3tk4-o8BoI1PSoU5UhBAnep~Vlg",
     },
   }),
 }
